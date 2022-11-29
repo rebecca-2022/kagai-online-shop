@@ -8,20 +8,41 @@
     <title>ONLINE-SHOPING</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
     <link rel="https://kit.fontawesome.com/a076d05399.js">
+    <link rel="stylesheet" type="text" href="./images/">
+
 
 </head>
 <body>
 <h1 id="title">Online-wardrobe.</h1>
 <h2>An online wardrobe where you can get looks for every occasion.</h2>
 <div>
-  <div class="images">
-    <images src="images/images/clothes-neon-icons-vector.jpg">
-
+  <div class="image">
+    <img src="images/clothes-neon-icons-vector.jpg" alt=""height="500px" width="800px">
   </div>
 </div>
 
+<div class="likes-section">
+  <span id="like-count" class="likes">0 likes</span>
+  <button id="like-button" class="like-button">♥</button>
+  <p style="color: white;">Please like and comment</p>
+  
+</div>
+<ul id="comments-list" class="comments">
+  <li> cool occassion outfits!</li>
+  <li>Come and enjoy our nice looks!</li>
+</ul>
+<form id="comment-form" class="comment-form">
+  <input
+    class="comment-input"
+    type="text"
+    name="comment"
+    id="comment"
+    placeholder="Add a comment..."
+  />
+  <button class="comment-button" type="submit">Post</button>
 
-
-
-
-
+</form>
+<button id="see">our looks</button>
+<div id="display">
+  
+</div>

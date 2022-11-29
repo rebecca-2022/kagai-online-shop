@@ -1,0 +1,321 @@
+body {background-color: rgb(119, 31, 115);}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 300px;
+    color:  rgba(0, 255, 200, 0.967);
+    margin-left: 200px;
+ }
+ .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color:white(16, 67, 150);
+    min-width: 50px;
+    text-align: center;
+  }
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  .btn {
+    background-color: dodgerblue;
+    color:white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+.house p{
+    margin-left: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 10px;
+    font-size: 30px;
+    color: rgb(0, 0 ,255, 0.967);
+}
+.house:hover {
+    font-size: 32px;
+}
+.icons {
+    margin-left: 500px;
+}
+.image {
+    margin-left: 300px;
+}
+.likes-section {
+  display: flex;
+  padding-bottom: 100px;
+  margin-left: 50px;
+  align-items: center;
+  padding: 0 10px;
+  display: -ms-flexbox; /* IE10 */
+  width: 100%;
+  margin-bottom: 15px;
+}
+.likes {
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+.like-button {
+  color:rgb(0, 255, 34);
+  font-size: 46px;
+  border: none;
+  background: none;
+  transition: color 300ms;
+  cursor: pointer;
+  margin-left: 100px;
+  border: 10px;
+}
+.like-button:hover {
+  color: rgb(241, 71, 19);
+}
+.like-button:active {
+  color: rgb(169, 253, 124);
+}
+.like-button:focus {
+  outline: none;
+}
+.comments {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.comments li {
+  margin: 2px 0;
+  margin-left: 30px;
+  letter-spacing: 0.2px;
+  color:black;
+}
+.comment-form {
+  width: 20%;
+  border-top: 10px solid #00000020;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.comment-input {
+  width: 83%;
+  border-top-style: dotted;  font-size: 20px;
+  border-color: crimson;
+}
+.comment-input:focus {
+  outline: none;
+}
+.comment-button {
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(92, 114, 238);
+   cursor: pointer;
+  transition: color 300ms;
+}
+.comment-button:hover {
+  color: rgb(37, 68, 245);
+}
+.comment-button:active {
+  color: rgb(127, 146, 250);
+}
+.comment-button:focus {
+  outline: none;
+}
+#title{
+  font-style:initial;
+  font-family: "Audiowide";
+  color:blue;
+  
+}
+
+#ourfeatured{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: center;
+    border-color:blue;
+    border-color: white;
+}
+#biggest{
+    font-size: x-large;
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+}
+#palace{
+    font-size: xx-large;
+    color: black;
+    font-weight: lighter;
+}
+#ivy{
+    color: black;
+    font-weight: lighter;
+}
+#rexona{
+    color: black;
+    font-weight: lighter;
+}
+#lekki2{
+    font-size: large;
+    color: black;
+    font-weight: lighter;
+}
+#lekkiprice{
+    font-size: large;
+    font-weight: lighter;
+}
+#esteemed{
+    display: block;
+    text-align: center;
+    border-color:blue;
+}
+#esteemedc{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#clientsay{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+}
+#alex{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#client{
+    display: flex;
+    flex: row;
+    padding: 0px, 200px, 200px, 200px;
+    border-color: white;
+}
+#lorem{
+    font-size: large;
+    font-weight: lighter;
+    color: grey;
+}
+#last{
+    background-color:white;
+    color: white;
+    list-style: none;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+#solutions{
+    font-weight: lighter;
+    font-size: large;
+}
+#learning{
+    font-weight: lighter;
+    font-size: medium;
+}
+#about{
+    font-weight: lighter;
+    font-size: medium;
+}
+#resources{
+    font-weight: lighter;
+    font-size: medium;
+}
+#propertylist{
+    list-style: none;
+    font-weight: lighter;
+    font-size: large;
+}
+#aboutlist{
+    list-style: none;
+    font-weight: lighter;
+    font-size: large;
+}
+#resourceslist{
+    list-style: none;
+    font-size: large;
+    font-weight: lighter;
+}
+html{
+    color:black;
+}
+.header{
+    display: flex;
+    flex: row;
+    border-bottom: solid 1px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.description{
+    display: flex;
+    flex: row;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex: row;
+    padding: 20px;
+    align-items: center;
+}
+#creating{
+    color: black;
+}
+#this{
+    color: black;
+    padding-top: 0px;
+}
+.steps{
+    display: flex;
+    flex: row;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+.rating{
+    display: flex;
+    flex: row;
+    align-items: center;
+    margin-left: 100px;
+}
+#reasons{
+    list-style: none;
+    line-break: auto;
+    list-style-position: inside;
+    color: black;
+}
+.featuredproperties{
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.message{
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+#clientsay{
+    color: black;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:blue;
+    color: white;
+}
+
+
+
+
+
+  
